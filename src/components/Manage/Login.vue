@@ -65,11 +65,12 @@ export default {
       }
 
       login(data).then((res) => {
+        console.log(res)
         if (res.token) {
           localStorage.setItem('token', res.token)
           router.push({ path: '/managehome' })
-        } else if (res.error) {
-          message.error(res.error, { duration: 3000 })
+        } else if (res.msg) {
+          message.error(res.msg, { duration: 2000 })
         }
       })
     }

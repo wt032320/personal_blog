@@ -8,12 +8,12 @@ let layoutData = [
     path: 'blog'
   },
   {
-    name: 'Record',
-    path: 'record'
+    name: 'Category',
+    path: 'category'
   },
   {
-    name: 'ContactMe',
-    path: 'contact'
+    name: 'LifeRecord',
+    path: 'record'
   },
 ]
 

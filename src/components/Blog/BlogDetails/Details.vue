@@ -43,7 +43,6 @@
       </div>
     </div>
     <div class="content" v-html="blogdata.text">
-
     </div>
   </div>
 </template>

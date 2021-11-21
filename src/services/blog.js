@@ -1,11 +1,11 @@
 import {api } from '../utils/http'
 
 function blogSubmit (data) {
-  return api.post('/blogcreate', data)
+  return api.post('/api/bloginfo/create', data)
 }
 
 function getBlogInfo () {
-  return api.get('/getblog')
+  return api.get('/api/bloginfo')
 }
 
 function getBlogDetails (data) {
@@ -13,7 +13,7 @@ function getBlogDetails (data) {
 }
 
 function changeBlogViews (data) {
-  return api.post('/changeviews', data)
+  return api.post('api/bloginfo/views', data)
 }
 
 export {

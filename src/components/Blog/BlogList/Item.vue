@@ -48,7 +48,6 @@
   import { NSkeleton } from 'naive-ui';
 
   import { changeBlogViews } from '@/services/blog';
-import { useRoute } from 'vue-router';
 
   export default {
     name: 'BlogItem',

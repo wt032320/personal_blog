@@ -25,16 +25,7 @@
         </span>
       </div>
       <div class="search">
-        <input
-          placeholder="search"
-          type="text"
-          class="form_input"
-        />
-        <div class="search-icon">
-          <svg class="icon" aria-hidden="true">
-            <use xlink:href="#icon-search"></use>
-          </svg>
-        </div>
+        
       </div>
     </div>
     <router-view></router-view>
@@ -78,32 +69,6 @@ export default {
       color: transparent;
     }
 
-    .search {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      margin-right: 3%;
-      border: 1px solid #aaa;
-
-      .form_input {
-        outline-style: none;
-        border: 0px;
-        padding: 3px 0 3px 3px;
-        border-right: none;
-      }
-
-      .search-icon {
-        width: 16px;
-        padding-right: 3px;
-        .icon {
-          width: 1em; height: 1em;
-          vertical-align: -0.15em;
-          fill: currentColor;
-          overflow: hidden;
-        }
-      }
-    }
-
     .item-wrap {
       width: 25%;
       margin-right: 10%;
@@ -113,6 +78,7 @@ export default {
 
         .item-font {
           color: #000;
+          font-size: medium;
           text-decoration: none;
         }
 

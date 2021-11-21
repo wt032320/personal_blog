@@ -49,15 +49,15 @@ const routes = [
       },
       {
         // 记录页
-        path: 'record',
-        name: 'record',
-        component: () => import('../views/page/record/Record.vue')
+        path: 'category',
+        name: 'category',
+        component: () => import('../views/page/category/Category.vue')
       },
       {
         // 联系页
-        path: 'contact',
-        name: 'contact',
-        component: () => import('../views/page/contact/Contact.vue')
+        path: 'record',
+        name: 'record',
+        component: () => import('../views/page/record/Record.vue')
       }
     ]
   },
