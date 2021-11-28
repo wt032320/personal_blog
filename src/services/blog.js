@@ -1,4 +1,4 @@
-import {api } from '../utils/http'
+import { api } from '../utils/http'
 
 function blogSubmit (data) {
   return api.post('/api/bloginfo/create', data)

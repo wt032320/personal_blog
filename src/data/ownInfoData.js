@@ -1,6 +1,6 @@
 export default [
   {
-    avatar_img_src: 'https://07akioni.oss-cn-beijing.aliyuncs.com/07akioni.jpeg'
+    avatar_img_src: '' // https://07akioni.oss-cn-beijing.aliyuncs.com/07akioni.jpeg
   },
   {
     nick_name: 'zhienyuxin'

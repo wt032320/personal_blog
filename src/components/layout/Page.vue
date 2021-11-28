@@ -57,7 +57,6 @@ export default {
     align-items: center;
     padding: 10px 0;
     background-color: #fff;
-    // border-bottom: 1px solid #ddd;
 
     .title {
       margin-left: 1%;
@@ -72,19 +71,42 @@ export default {
     .item-wrap {
       width: 25%;
       margin-right: 10%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
 
       .item {
         padding: 5% 8%;
 
         .item-font {
+          position: relative;
           color: #000;
           font-size: medium;
           text-decoration: none;
-        }
+          transition: 0.5s;
 
-        .item-font:hover {
-          cursor: default;
-          color: #36ad6a;
+          &::after {
+            position: absolute;
+            content: "";
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: #36ad6a;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s;
+          }
+
+          &:hover {
+            color: #5bc98a;
+            cursor: default;
+          }
+
+          &:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+          }
         }
       }
     }

@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "7542757",
+      "name": "24gf-tags",
+      "font_class": "24gf-tags",
+      "unicode": "e886",
+      "unicode_decimal": 59526
+    },
+    {
       "icon_id": "986189",
       "name": "微信",
       "font_class": "weixin-copy",
